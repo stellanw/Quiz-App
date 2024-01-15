@@ -38,13 +38,12 @@ a {
 .box {
   display: flex;
   flex-flow: column;
+  align-items: center;
 }
 
 button {
   display: flex;
-  position: static;
   margin: 0;
-  align-items: center;
   width: fit-content;
   height: fit-content;
 }
@@ -52,6 +51,7 @@ button {
 .tags {
   display: flex;
   flex-wrap: wrap;
+  align-items: left;
   gap: 10px;
 }
 
