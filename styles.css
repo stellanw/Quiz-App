@@ -5,25 +5,23 @@ body {
 
 header {
   margin: 0;
-  color: deeppink;
-  font-family: Verdana;
-  display: flex;
-  justify-content: center;
-
+  color: white;
+  font-family: Helvetica;
   position: fixed;
-  background-color: aqua;
+  text-align: center;
+  background-color: lightseagreen;
+  width: 100%;
   top: 0;
-  left: 0;
-  right: 0;
+
   padding: 5px;
 }
 
 main {
-  margin-top: 110px;
+  margin-top: 105px;
+  margin-bottom: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  top: 120px;
 }
 
 ul {
@@ -39,6 +37,14 @@ a {
   display: flex;
   flex-flow: column;
   align-items: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 350px;
+  border: 100px;
+  border-color: black;
+  background-color: lightcyan;
+  margin-bottom: 14px;
+  border-radius: 8px;
 }
 
 button {
@@ -59,22 +65,24 @@ button {
 
 li {
   display: flex;
-  background-color: cadetblue;
+  background-color: rgb(161, 227, 223);
   padding: 3px;
   border-radius: 3px;
 }
 
 footer {
-  bottom: 0px;
+  bottom: 0;
   padding: 5px;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  background-color: lightseagreen;
 }
 
 nav {
   display: flex;
-  position: fixed;
   justify-content: center;
   align-items: center;
-  padding-top: 5px;
+  padding: 15px;
   gap: 50px;
-  width: 100%;
 }
