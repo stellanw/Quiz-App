@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: Helvertica;
+}
+
+h1 {
+  color: deeppink;
+  font-family: Verdena;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: fixed;
+  background-color: aqua;
+  left: 0;
+  right: 0;
+}
