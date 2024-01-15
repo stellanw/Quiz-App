@@ -51,8 +51,10 @@ button {
 .tags {
   display: flex;
   flex-wrap: wrap;
-  align-items: left;
+  justify-content: start;
+  padding-left: 0;
   gap: 10px;
+  align-self: flex-start;
 }
 
 li {
@@ -60,4 +62,19 @@ li {
   background-color: cadetblue;
   padding: 3px;
   border-radius: 3px;
+}
+
+footer {
+  bottom: 0px;
+  padding: 5px;
+}
+
+nav {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  gap: 50px;
+  width: 100%;
 }
